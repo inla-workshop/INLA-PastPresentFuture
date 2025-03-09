@@ -1,0 +1,260 @@
+---
+title: "Programme at a glance"
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(kableExtra)
+library(dplyr)
+knitr::opts_chunk$set(
+  message = FALSE, 
+  warning = FALSE,
+  fig.align = "center",
+  cache = F
+)
+
+```
+
+*Note: This is a draft programme subject to modifications.*
+
+With the exception of the poster session, all activities of the workshop will take place in room 222 of the Boyd Orr Building. The poster session will be held in the Maths&Stats Building. Coffee breaks will be host in the Wolfson Medical School Building Atrium.
+
+**BO**: [room 222](https://www.gla.ac.uk/myglasgow/estates/timetabling/roomphotos/boydorr/#boydorrbuilding-room222(lt2)) Boyd Orr Building. University Avenue, Glasgow G12 8SP [(Google map)](https://www.google.com/maps?client=firefox-b-d&sca_esv=fecf88b048ffc4bd&output=search&q=boyd+orr+building+address&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpIgVFCTcbZI9VMGzNoV0iOZkckJJygdiLH6_g992ly-MejtXB7Ey3BdJG-rocg1ctTTT2Sbw250jS57H7KwALYd1nHaMretDrf2waNC9UTwjYTzOLpio9PbBPolGC3qxjmeHOEok_InAvzm4kZ2Jw6WOzUfTeEsuUM0OMJn_lHn5w47Ve92n0DqpX4dAFrRrWeCN7Og&entry=mc&ved=1t:200715&ictx=111)
+
+**M&S CM**: common room located on level 3 of The Mathematics & Statistics Building. 132 University Pl, G12 8QQ [(Google map)](https://www.google.com/maps/place/School+of+Mathematics+and+Statistics/@55.8726073,-4.2944843,511m/data=!3m2!1e3!4b1!4m6!3m5!1s0x488845cfd066d839:0xeab86bed8f92f0d0!8m2!3d55.8726073!4d-4.2944843!16s%2Fg%2F11ddzkn8v0?entry=ttu&g_ep=EgoyMDI1MDEyMC4wIKXMDSoASAFQAw%3D%3D)
+
+**Atrium** The atrium is located in the ground floor of the Wolfson Medical School Building. University Ave, Glasgow G12 8QQ [(Google map)](https://www.google.com/maps?client=firefox-b-d&sca_esv=fecf88b048ffc4bd&output=search&q=wolfson+medical+school&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpIgVFCTcbZI9VMGzNoV0iOZkckJJygdiLH6_g992ly-MejtXB7Ey3BdJG-rocg1ctTTT2Sbw250jS57H7KwALYd1nHaMretDrf2waNC9UTwjYTzOLpio9PbBPolGC3qxjmeHOEok_InAvzm4kZ2Jw6WOzUfTeEsuUM0OMJn_lHn5w47Ve92n0DqpX4dAFrRrWeCN7Og&entry=mc&ved=1t:200715&ictx=111)
+
+<div style="text-align: center;">
+  <iframe src="img/INLAworkshop2025_TentativeProgramme.pdf" width="900" height="600" style="border:none;"></iframe>
+</div>
+
+
+## Lunch
+Kindly note that lunch is not provided, but a list with reccomendations for restaurants and delis close to our venue can be found below.
+
+Both the Adam Smith Building (ASB) and the School of Mathematics and Statistics are very close to Byres Road, a vibrant street with lots of restaurants, delis, shops, and tea/coffee shops. Here is a list with some recommendations, but feel free to walk along the street and see what is out there. They are all within walking distance from the workshop venue. Please consult the corresponding websites for menu details/dietary requirements.
+
+::: {.callout-tip collapse="true" appearance="simple" icon=false}
+# Restaurants (sorted by walking distance to ASB)
+
+
+| Name                  | Style              | Address                   | To ASB |
+|-----------------------|--------------------|---------------------------|--------|
+| Eighty Eight          | Small plates       | 88 Dumbarton Rd, G11 6NX  | 3min   |
+| Number 16 Restaurant  | Modern European    | 16 Byres Rd, G11 5JY      | 3min   |
+| St Lucia Pasta        | Italian            | 4 Byres Rd, G11 5JY       | 3min   |
+| Dumpling Monkey       | Chinese            | 121 Dumbarton Rd, G11 6PR | 4min   |
+| TING THAI Byres Road  | Thai               | 94 Byres Rd, G12 8TB      | 5min   |
+| Bibimbap              | Korean             | 4 Byres Rd, G11 5JY       | 6min   |
+| Topolabamba           | Mexican            | 116-122 Byres Rd, G12 8TB | 6min   |
+| La Vita Spuntini      | Italian            | 199 Byres Rd, G12 8TN     | 8min   |
+| Little Italy Pizzeria | Italian            | 205 Byres Rd, G12 8TN     | 8min   |
+| Bantawala             | Indian             | 4 Byres Rd, G11 5JY       | 9min   |
+| Ashoka Ashton Lane    | Indian             | 19 Ashton Ln, G12 8SJ     | 10min  |
+| Ubiquitous Chip       | Scottish           | 12 Ashton Ln, G12 8SJ     | 10min  |
+| Bothy Glasgow         | Scottish           | 11 Ruthven Ln, G12 9BG    | 10min  |
+| The Gardener          | Bites,small plates | 24 Ashton Ln, G12 8SJ     | 10min  |
+| Chaakoo               | Indian             | 61 Ruthven Ln, G12 9BG    | 11min  |
+| Ka Pao                | Southeast Asian    | 26 Vinicombe St, G12 8BE  | 13min  |
+| Crabshakk Botanics    | Fish               | 18 Vinicombe St, G12 8BE  | 13min  |
+
+: {.striped .hover}
+
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon=false}
+# Sandwich/Bagel/Deli (sorted by walking distance to ASB)
+
+| Name                                | Style                  | Address                   | To ASB |
+|-------------------------------------|------------------------|---------------------------|--------|
+| St Lucia Deli                       | Italian  deli          | 181 Byres Rd, G12 8TS     | 6min   |
+| Bagel mania                         | Bagel shop             | 195 Byres Rd, G12 8TN     | 8min   |
+| La Pastina Deli                     | Italian deli           | 180 Byres Rd, G12 8SN     | 8min   |
+| Subway                              | Sandwich shop          | 239 Byres Rd, G12 8UB     | 9min   |
+| Gyros                               | Greek                  | 223 Byres Rd, G12 8UD     | 9min   |
+| Brawsome Bagels                     | Bagel shop             | 292 Dumbarton Rd, G11 6TD | 9min   |
+| Pret a manger                       | Sandwich & hot food    | 268 Byres Rd, G12 8SH     | 10min  |
+| Juicy                               | Juice bar, salad bowls | 284 Byres Rd, G12 8AWY    | 10min  |
+
+
+: {.striped .hover}
+
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon=false}
+# Coffee and specialty tea (sorted by walking distance to ASB)
+
+| Name                     | Style                          | Address                       | To ASB |
+|--------------------------|--------------------------------|-------------------------------|--------|
+| The alchemist experiment | Coffee, chai and art gallery   | 157 Byres Rd, Glasgow G12 8TS | 5min   |
+| Birds & Blends           | Tea shop specialised in blends | 215 Byres Rd, Glasgow G12 8UD | 10min  |
+
+
+: {.striped .hover}
+
+:::
+
+## Dinner recommendations
+For drinks or dinner, you can explore the Byres Road area, take a short stroll to Finnieston, or hop on the subway to visit the city centre. With countless options to choose from, it’s impossible to list them all here. However, if you're looking for recommendations, Time Out has curated a great list of the [35 best restaurants in Glasgow](https://www.timeout.com/glasgow/restaurants/best-restaurants-in-glasgow).
+
+
+```{r, echo = F, eval=F}
+time = c('<strong>Date</strong>', '<strong>Location</strong>', 
+         '8:00 - 8:15', 
+         '8:15 – 8:30', 
+         '8:30 - 9:25',
+         '9:30 - 10:30 ',
+         '10:30 – 11:00',
+         '11:00 - 12:00',
+         '12:00 – 13:30',
+         '13:30 – 15:30',
+         '15:30 –16:00',
+         '16:00- 18:00 ')
+
+
+day1 = c('Wed 21st May', 
+         '<strong>ASB</strong> (except poster session)', 
+         'Self-Registration', 
+         'Opening Session', 
+         'Keynote 1',
+         'Invited Talks',
+         'Coffee break',
+         'Contributed Talks<br><strong>(11:00-12:30)</strong><br>',
+         'Lunch time',
+         'Tutorial: inlabru',
+         '(14:00-16:00)',
+         'Flash poster presentations<br><strong>(16:00-16:30)</strong><br>
+         Poster session<br>
+         cheese & wine & cake<br>
+         <strong>(16:30-18:00; M&S CM)</strong>')
+
+
+day2 = c('Thu 22nd May', 
+         '<strong>ASB</strong>', 
+         '', 
+         '', 
+         'Keynote 2',
+         'Panel discussion',
+         'Coffee break',
+         'Invited Talks',
+         'Lunch time',
+         'Tutorial: MetricGraph',
+         'Coffee break & Photo',
+         'Keynote 3<br><strong>(16:00-16:55)</strong>')
+
+day3 = c('Fri 23rd May', 
+         '<strong>ASB</strong>', 
+         '', 
+         '', 
+         'Keynote 4',
+         'Invited Talks',
+         'Coffee break',
+         'Contributed Talks',
+         "Håvard's speech<br>Awards & Closing<br><strong>(12:00-12:45)</strong>",
+         '', '', '')
+# 
+# time = c('<strong>Date</strong>', 
+#          '<strong>Location</strong>', 
+#          '8:00 - 8:15', 
+#          '8:15 – 8:30', 
+#          '8:30 - 9:25',
+#          '9:30 - 10:30 ',
+#          '10:30 – 11:00',
+#          '11:00 - 12:30',
+#          '12:30 – 14:00',
+#          '14:00 – 16:00',
+#          '16:00- 18:00 ')
+# 
+# day1 = c('Wed 21st May', 
+#          '<strong>ASB</strong> (except poster session)', 
+#          'Self-Registration', 
+#          'Opening Session', 
+#          'Keynote 1',
+#          'Invited Talks',
+#          'Coffee break',
+#          'Contributed Talks',
+#          'Lunch time',
+#          'Tutorial: inlabru',
+#          'Flash poster presentations<br><strong>(16:00-16:30)</strong><br>
+#          Poster session<br>
+#          cheese & wine & cake<br>
+#          <strong>(16:30-18:00; M&S CM)</strong>')
+# 
+# 
+# day2 = c('Thu 22nd May', 
+#          '<strong>ASB</strong>', 
+#          '', 
+#          '', 
+#          'Keynote 2',
+#          'Panel discussion',
+#          'Coffee break',
+#          'Invited Talks<br><strong>(11:00-12:00)</strong><br>',
+#          'Lunch time<br><strong>(12:00-13:30)</strong><br>',
+#          'Tutorial: MetricGraph<br><strong>(13:30-15:30)</strong><br>',
+#          'Coffee break & Photo<br><strong>(15:30-16:00)</strong><br>',
+#          'Keynote 3<br><strong>(16:00-16:55)</strong>')
+# 
+# day3 = c('Fri 23rd May', 
+#          '<strong>ASB</strong>', 
+#          '', 
+#          '', 
+#          'Keynote 4',
+#          'Invited Talks',
+#          'Coffee break',
+#          'Contributed Talks<br><strong>(11:00-12:00)</strong><br>',
+#          "Håvard's speech<br>Awards & Closing<br><strong>(12:00-12:45)</strong>",
+#          '', '', '')
+
+
+d = data.frame(time, day1, day2, day3)
+
+d[5,2:4]    = cell_spec(d[5,2:4], background = "#f6c5ac", bold = T,escape = F)
+d[12,3]     = cell_spec(d[12,3], background = "#f6c5ac", bold = T,escape = F)
+d[6,c(2,4)] = cell_spec(d[6,c(2,4)], background = "#c0f0c7", bold = T,escape = F)
+d[8,c(2,4)] = cell_spec(d[8,c(2,4)], background = "#b6dde7", bold = T,escape = F)
+d[10,2:3]   = cell_spec(d[10,2:3], background = "#ccc0d9", bold = T,escape = F)
+d[9,2:3]    = cell_spec(d[9,2:3], color = "red", escape = F)
+d[11,3]    = cell_spec(d[11,3], color = "red", escape = F)
+d[12,2]     = cell_spec(d[12,2], background = "#ddd9c3", bold = T, escape = F)
+# d[7,2:3]    = cell_spec(d[7,2:3], color = "red", escape = F)
+# d[11,3]     = cell_spec(d[11,3], color = "red", escape = F)
+d[11,2]     = cell_spec(d[11,2], background = "#ccc0d9", bold = T)
+d[10:11,2]  = cell_spec(d[10:11,2], background = "#ccc0d9", bold = T, escape = F)
+d[10,2]     = cell_spec(d[10,2], extra_css = "border-bottom: none;", escape = F)
+
+kbl(d, escape = F, col.names = c('', 'Day 1', 'Day 2', 'Day 3'), align = c('l','c','c','c')) %>%
+  column_spec(column = 1, width="2cm") %>%
+  column_spec(column = 2, width="3cm") %>%
+  column_spec(column = 2, width="3cm") %>%
+  column_spec(column = 2, width="3cm") %>%
+  row_spec(0, bold = T, color = 'white', background = '#2c3e50') %>%
+  row_spec(1, color = 'black', background = '#dbf3fa') %>%
+  row_spec(2, color = 'black', background = '#dbf3fa') %>%
+  row_spec(7, color = 'red', background = 'transparent') %>%
+  # row_spec(11, color = 'red', background = 'transparent') %>%
+  kable_styling(htmltable_class = 'lightable-hover', full_width = F) %>%
+  add_header_above(c(" " = 4)) 
+# %>%  # Ensure the table renders cleanly
+#   row_spec(10, extra_css = "border-bottom: none;") %>%
+#   column_spec(2, extra_css = "border-right: solid 1px black;")
+
+
+```
+
+```{r, eval=FALSE, echo = F}
+
+# Create the data frame
+a <- as.character(1:4)
+b <- c('hello world', 'hi there', 'hello world', 'hi there')
+d <- data.frame(a, b, a)
+
+# Apply custom styling for the cells
+d[1, 2] <- cell_spec(d[1, 2], background = "yellow")
+d[1, 3] <- cell_spec(d[1, 3], background = "yellow")
+
+# Generate the table
+kbl(d, escape = FALSE) %>%
+  kable_styling(full_width = FALSE)
+```
+

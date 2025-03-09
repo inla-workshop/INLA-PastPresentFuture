@@ -1,0 +1,84 @@
+---
+title: "Keynote Speakers"
+---
+
+
+## Finn Lindgren
+
+Chair of Statistics, School of Mathematics, The University of Edinburgh, Scotland
+
+::: columns
+::: {.column width="80%"}
+
+Professor Lindgren's research focuses on spatial and spatio-temporal stochastic models, environmetrics, and computational methods and software. Among many others, he co-authored the influential paper "An Explicit Link Between Gaussian Fields and Gaussian Markov Random Fields: The Stochastic Partial Differential Equation Approach," published in the Journal of the Royal Statistical Society: Series B. Professor Lindgren has contributed to the development of several R packages, including INLA for Bayesian latent Gaussian models and inlabru, a user-friendly interface for INLA with additional features.
+
+For more information, visit his [home page](https://www.maths.ed.ac.uk/~flindgre/)
+
+:::
+::: {.column width="20%"}
+
+![](img/finn_lindgren.jpg)
+
+
+:::
+:::
+
+## Sara Martino
+
+Associate Professor, Department of Mathematical Sciences, NTNU, Norway
+
+::: columns
+::: {.column width="80%"}
+
+Sara Martino is Associate Professor of Statistics at NTNU in Norway and previously a researcher at SINTEF Energy AS. Her research interests are Bayesian modeling and spatial and spatio-temporal statistics. She has contributed to various research fields, including ecology, environmental science and survival analysis.
+Dr Martino has contributed significantly to the field through various publications. Notably, she co-authored the paper "Approximate Bayesian inference for latent Gaussian models by using integrated nested Laplace approximations," published in Journal of the Royal Statistical Society Series B on 2009. This seminal contribution to Bayesian statistics introduces and develops the INLA methodology.
+
+For more information, visit her [home page](https://www.ntnu.edu/employees/sara.martino)
+
+:::
+::: {.column width="20%"}
+
+![](img/sara_martino.jpg)
+
+:::
+:::   
+
+## Elias Teixeira Krainski
+
+Postdoctoral Research Fellow in Statistics, CEMSE Division, KAUST, Saudi Arabia
+
+::: columns
+::: {.column width="80%"}
+
+Dr Elias Teixeira Krainski is a Postdoctoral Research Fellow in Statistics at the King Abdullah University of Science and Technology (KAUST), working under the supervision of Professor Håvard Rue. He earned his PhD from the Norwegian University of Science and Technology in 2018 and has held positions as an Adjunct Professor at Universidade Federal do Paraná (2018-2019) and as a Postdoctoral Fellow at Dalhousie University (2019-2020). Dr Krainski’s work centres on developing complex yet accessible statistical models, with a focus on efficient Bayesian methods, spatio-temporal statistics, and Integrated Nested Laplace Approximations (INLA).
+
+For more information, visit his [home page](https://cemse.kaust.edu.sa/profiles/elias-teixeira-krainski)
+
+:::
+::: {.column width="20%"}
+
+![](img/elias_krainski.png)
+
+
+:::
+:::
+
+## Janet van Niekerk
+
+Research Scientist, CEMSE Division, KAUST, Saudi Arabia
+
+::: columns
+::: {.column width="80%"}
+
+Janet is currently a Research Scientist at KAUST and was previously a Senior Lecturer at the University of Pretoria in South Africa. Her research interests are Bayesian modeling and computational approaches. She has worked in various research fields such as survival analysis and epidemiology. While at KAUST she worked on the new INLA methodology. She is an associate editor for Bayesian Analysis and the 2024/2025 young ambassador for the International Biometrics Society. 
+
+
+For more information, visit her [home page](https://cemse.kaust.edu.sa/profiles/janet-van-niekerk)
+
+:::
+::: {.column width="20%"}
+
+![](img/janet_vanniekerk.jpeg){width=100%}
+
+:::
+:::   

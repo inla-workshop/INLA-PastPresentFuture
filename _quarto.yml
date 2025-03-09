@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "INLA workshop 2025"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - registration.qmd
+      - href: programme.qmd
+        text: Programme
+      - keynotes.qmd
+      - invited.qmd
+      - href: panel.qmd
+        text: Panel Discussion
+      - tutorials.qmd
+      - abstract.qmd
+      - awards.qmd
+  page-footer:
+    # right: "Organisers: [Daniela Castro-Camilo](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/danielacastrocamilo/), [Sara Martino](https://www.ntnu.edu/employees/sara.martino), and [Janine Illian](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/janineillian/)"
+    left: "&copy; Copyright 2025, DCC"
+
+format:
+  html:
+    page-layout: full
+    theme: flatly # cosmo, flatly, yeti, sandstone
+    # fontcolor: black
+    smooth-scroll: true
+    toc: false
+    link-external-icon: true
+    link-external-newwindow: true
+
+editor: source
+

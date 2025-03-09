@@ -1,0 +1,131 @@
+---
+title:  Tables
+---
+
+
+```{r setup, include=FALSE}
+library(kableExtra)
+library(dplyr)
+knitr::opts_chunk$set(cache = F)
+```
+
+```{r, echo = F}
+# library(kableExtra)
+
+set.seed(123)
+
+name <- paste("Name", LETTERS)
+val <- rnorm(26, 100, 50)
+d <- data.frame(name, val)
+
+d$val <- cell_spec(d$val,
+  background = dplyr::case_when(
+    d$val > mean(d$val) + sd(d$val) ~ "#DBEBF6",
+    d$val < mean(d$val) - sd(d$val) ~ "#FEE7DA",
+    .default = "transparent"
+  ),
+  extra_css = "margin: -8px; padding: 8px; display: flex;"
+)
+
+# kbl(d, escape = FALSE) %>%
+#   kable_styling()
+
+```
+
+```{r, echo = F}
+library(kableExtra)
+
+time = c('<strong>Date</strong>', '<strong>Location</strong>', 
+         '8:00 - 8:15', 
+         '8:15 – 8:30', 
+         '8:30 - 9:25',
+         '9:30 - 10:30 ',
+         '10:30 – 11:00',
+         '11:00 - 12:00',
+         '12:00 – 13:30',
+         '13:30 – 15:30',
+         '15:30 –16:00',
+         '16:00- 18:00 ')
+
+
+day1 = c('Wed 21st May', 
+         '<strong>ASB</strong> (except poster session)', 
+         'Self-Registration', 
+         'Opening Session', 
+         'Keynote 1',
+         'Invited Talks',
+         'Coffee break',
+         'Contributed Talks',
+         'Lunch time',
+         'Tutorial: inlabru',
+         'Coffee break',
+         'Flash poster presentations<br><strong>(16:00-16:30)</strong><br>
+         Poster session<br>
+         cheese & wine & cake<br>
+         <strong>(16:30-18:00; M&S CM)</strong>')
+
+
+day2 = c('Thu 22nd May', 
+         '<strong>ASB</strong>', 
+         '', 
+         '', 
+         'Keynote 2',
+         'Panel discussion',
+         'Coffee break',
+         'Invited Talks',
+         'Lunch time',
+         'Tutorial: MetricGraph',
+         'Coffee break & Photo',
+         'Keynote 3<br><strong>(16:00-16:55)</strong>')
+
+day3 = c('Fri 23rd May', 
+         '<strong>ASB</strong>', 
+         '', 
+         '', 
+         'Keynote 4',
+         'Invited Talks',
+         'Coffee break',
+         'Contributed Talks',
+         "Håvard's speech<br>Awards & Closing<br><strong>(12:00-12:45)</strong>",
+         '', '', '')
+
+d = data.frame(time, day1, day2, day3)
+# d$day1 <- cell_spec(d$day1,
+#                     # color = dplyr::case_when(
+#                     #   d$day1 == 'Coffee break' ~ 'red', 
+#                     #   .default = "black"), 
+#                     # bold = dplyr::case_when(
+#                     #   d$day1 == d$day1[startsWith(d$day1, 'ASB')] ~ TRUE, 
+#                     #   .default = FALSE),
+#                     background = dplyr::case_when(
+#                       d$day1 == d$day1[startsWith(d$day1, 'Keynote')] ~ "#f6c5ac",
+#                       d$day1 == d$day1[startsWith(d$day1, 'Invited Talks')] ~ "#c0f0c7",
+#                       d$day1 == d$day1[startsWith(d$day1, 'Contributed Talks')] ~ "#b6dde7",
+#                       d$day1 == d$day1[startsWith(d$day1, 'Tutorial')] ~ "#ccc0d9",
+#                       d$day1 == d$day1[startsWith(d$day1, 'Flash')] ~ "#ddd9c3",
+#                       .default = "transparent")
+#                     )
+d[5,2:4] = cell_spec(d[5,2:4], background = "#f6c5ac", bold = T)
+d[12,3]  = cell_spec(d[12,3], background = "#f6c5ac", bold = T,escape = F)
+d[6,c(2,4)] = cell_spec(d[6,c(2,4)], background = "#c0f0c7", bold = T)
+d[8,c(2,4)] = cell_spec(d[8,c(2,4)], background = "#b6dde7", bold = T)
+d[10,2:3] = cell_spec(d[10,2:3], background = "#ccc0d9", bold = T)
+d[9,2:3] = cell_spec(d[9,2:3], color = "red", escape = F)
+d[12,2] = cell_spec(d[12,2], background = "#ddd9c3", bold = T, escape = F)
+
+kbl(d, escape = F, col.names = c('', 'Day 1', 'Day 2', 'Day 3'), align = c('l','c','c','c')) %>%
+  column_spec(column = 1, width="2cm") %>%
+  column_spec(column = 2, width="3cm") %>%
+  column_spec(column = 2, width="3cm") %>%
+  column_spec(column = 2, width="3cm") %>%
+  row_spec(0, bold = T, color = 'white', background = '#2c3e50') %>%
+  row_spec(1, color = 'black', background = '#dbf3fa') %>%
+  row_spec(2, color = 'black', background = '#dbf3fa') %>%
+  # row_spec(5, color = '#f6c5ac', bold = T) %>%
+  row_spec(7, color = 'red', background = 'transparent') %>%
+  row_spec(11, color = 'red', background = 'transparent') %>%
+  # cell_spec(d[4,2], bold = T, background = '#f6c5ac') %>%
+  # row_spec(3:12, background = 'white') %>%
+  kable_styling(htmltable_class = 'lightable-hover')
+
+```

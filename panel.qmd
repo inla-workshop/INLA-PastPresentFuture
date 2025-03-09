@@ -1,0 +1,11 @@
+---
+title: "Implementing INLA - Past, Present and Future"
+subtitle: "Panel discussion"
+---
+
+
+INLA would not be what it is today without the R-INLA package, and its continuous development, adaptation and improvement. In this panel discussion we focus on the implementation of the INLA methodology and what it means to maintain a widely used software library. In the spirit of this workshop we trace back its roots, discuss crucial milestones in the algorithmic development, and take an outlook into the future. What is working very well? What could be improved? How can each of us contribute to making R-INLA even better? 
+
+**Chair**: Lisa B Gaedke-Merzhäuser (KAUST)
+
+Panel discussants TBC
