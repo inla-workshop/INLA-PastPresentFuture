@@ -6,6 +6,108 @@ subtitle: "Panel discussion"
 
 INLA would not be what it is today without the R-INLA package, and its continuous development, adaptation and improvement. In this panel discussion we focus on the implementation of the INLA methodology and what it means to maintain a widely used software library. In the spirit of this workshop we trace back its roots, discuss crucial milestones in the algorithmic development, and take an outlook into the future. What is working very well? What could be improved? How can each of us contribute to making R-INLA even better? 
 
-**Chair**: Lisa B Gaedke-Merzhäuser (KAUST)
+# Chair: Lisa B Gaedke-Merzhäuser
 
-Panel discussants TBC
+Postdoctoral Research fellow in Statistics, CEMSE Division, KAUST, Saudi Arabia
+
+::: columns
+::: {.column width="80%"}
+
+Lisa is a Postdoctoral Fellow in Statistics at King Abdullah University of Science and Technology in Saudi Arabia. She holds a PhD in Computational Science from Università della Svizzera italiana (USI) in Lugano, Switzerland. Her research interests lie in fusing statistical learning techniques with methods from high-performance computing. She has been developing INLA_DIST, a GPU-accelerated distributed memory implementation of INLA for large-scale spatio-temporal models. 
+
+
+:::
+::: {.column width="20%"}
+
+![](img/lisa_bgaedke.jpg)
+
+
+:::
+:::
+
+
+
+# Panel discussants
+
+
+## Håvard Rue
+
+Professor, CEMSE Division, KAUST, Saudi Arabia
+
+::: columns
+::: {.column width="80%"}
+
+Professor Rue's research interests lie in computational Bayesian statistics and Bayesian methodology such as priors, sensitivity and robustness. His main body of research is built around the R-INLA project (www.r-inla.org), which aims to provide a practical tool for approximate Bayesian analysis of latent Gaussian models, often at extreme data scales. This project also includes efforts to use stochastic partial differential equations to represent Gaussian fields, for the use in spatial statistics. 
+
+For more information, visit his [home page](https://www.kaust.edu.sa/en/study/faculty/haavard-rue)
+
+:::
+::: {.column width="20%"}
+
+![](img/hr_pic.png)
+
+:::
+:::   
+
+## Virgilio Gómez-Rubio
+
+Associate Professor, Department of Mathematical Sciences, NTNU, Norway
+
+::: columns
+::: {.column width="80%"}
+
+Virgilio Gómez-Rubio is Full Professor in the Department of Mathematics, Universidad de Castilla-La Mancha (Spain). He has ample experience in Bayesian inference and statistical modeling as well as developing packages for the R programming language. His book Bayesian inference with INLA has been widely adopted for Bayesian modeling and it has been awarded the 2022 SEIO-BBVA Foundation Award in the category of Data Science and Big Data.
+
+For more information, visit her [home page](https://becarioprecario.github.io/)
+
+:::
+::: {.column width="20%"}
+
+![](img/virgilio-gomez-rubio.png)
+
+:::
+:::   
+
+## Garyfallos Konstantinoudis
+
+Lecturer, Imperial College
+
+::: columns
+::: {.column width="80%"}
+
+Gary is a lecturer in Biostatistics at the Grantham Institute for Climate Change and the Environment at Imperial College London. He holds an Imperial College Research Fellowship to develop spatiotemporal Bayesian methods to analyse the impact of temperature on individuals with diabetes. Prior to this role, he was an MRC Skills Development Fellow at Imperial College London examining heat-related spatiotemporal vulnerabilities in people hospitalised with respiratory diseases. He has been using INLA the past 6 years addressing pressing public health concerns related to environmental epidemiology, such as exposure to temperature, air pollution, and childhood cancer clusters.
+
+
+For more information, visit his [home page](https://profiles.imperial.ac.uk/g.konstantinoudis)
+
+:::
+::: {.column width="20%"}
+
+![](img/gary-Konstantinoudis.jpg)
+
+
+:::
+:::
+
+
+## Finn Lindgren
+
+Chair of Statistics, School of Mathematics, The University of Edinburgh, Scotland
+
+::: columns
+::: {.column width="80%"}
+
+Finn Lindgren is Chair of Statistics in the School of Mathematics, University of Edinburgh.
+His research focuses on spatial and spatio-temporal stochastic models, environmetrics, and computational methods and software. Among many others, he co-authored the influential paper “An Explicit Link Between Gaussian Fields and Gaussian Markov Random Fields: The Stochastic Partial Differential Equation Approach,” published in the Journal of the Royal Statistical Society: Series B. Professor Lindgren has contributed to the development of several R packages, including INLA for Bayesian latent Gaussian models and inlabru, a user-friendly interface for INLA with additional features.
+
+
+For more information, visit his [home page](https://www.maths.ed.ac.uk/~flindgre/)
+
+:::
+::: {.column width="20%"}
+
+![](img/finn_lindgren.jpg)
+
+
+:::
+:::
