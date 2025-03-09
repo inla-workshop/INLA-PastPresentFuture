@@ -9,7 +9,9 @@ Professor of Statistics, Public University of Navarre, Spain
 ::: columns
 ::: {.column width="80%"}
 
-Lola Ugarte is a Spanish statistician and professor at the Public University of Navarre. She is an expert in spatial statistics, spatio-temporal analysis, and small area estimation. She is a co-author of the textbook Probability and Statistics with R and has held prominent positions, including vice president of the Spanish Statistical Society and treasurer of the Federation of European National Statistical Societies. For more information, visit her [home page](https://www.unavarra.es/personal/lugarte/indexfotoingles.htm).
+Lola Ugarte is a Spanish statistician and professor at the Public University of Navarre where she leads the Spatial Statistics group. Currently she is the President of FENStatS (Eropean Federation of National Statistical Societies). In June 2024, she was awarded the SEIO (Spanish Society of Statistics) Medal.
+
+For more information, visit her [home page](https://www.unavarra.es/pdi?uid=387).
 
 :::
 ::: {.column width="20%"}
@@ -46,7 +48,9 @@ Professor in Statistics, NTNU, Norway
 ::: columns
 ::: {.column width="80%"}
 
-Andrea Riebler is a Professor of Statistics at the Norwegian University of Science and Technology (NTNU), Trondheim. She earned her Ph.D. in 2010 from the University of Zurich and later held a postdoctoral fellowship there in statistical genomics. Her research focuses on spatial statistics, Bayesian inference, and biostatistical applications. She has led projects funded by the Norwegian Research Council, including work on Penalized Complexity Priors for Bayesian models. Andrea has contributed to developing the INLA software and the R package SUMMER, which focuses on mapping health indicators in low- and middle-income countries. For more information, visit her [home page](https://andrerie.folk.ntnu.no/).
+Andrea Riebler is a Professor of Statistics at the Norwegian University of Science and Technology (NTNU), Trondheim. She earned her Ph.D. in 2010 from the University of Zurich and later held a postdoctoral fellowship there in statistical genomics. Her research focuses on spatial statistics, Bayesian inference, and biostatistical applications. She has led projects funded by the Norwegian Research Council, including work on Penalized Complexity Priors for Bayesian models. Andrea has contributed to developing the INLA software and the R package SUMMER, which focuses on mapping health indicators in low- and middle-income countries. 
+
+For more information, visit her [home page](https://andrerie.folk.ntnu.no/).
 
 :::
 ::: {.column width="20%"}
@@ -65,7 +69,9 @@ Postdoctoral Research fellow in High Performance Computing, CEMSE Division, KAUS
 ::: columns
 ::: {.column width="80%"}
 
-Esmail's research focuses on advancing computational tools and methodologies to improve Bayesian inference, bridging complex statistical theory with practical computational applications. He earned his PhD in Statistics at KAUST under the supervision of Professor Håvard Rue, as part of the Computational Bayesian Statistics research group. In recognition of his contributions to computational statistics, he received the prestigious 2023 Al-Kindi Research Award for Outstanding Research. For more information, visit his [home page](https://sites.google.com/kaust.edu.sa/esmail-abdulfattah/home).
+Esmail's research focuses on advancing computational tools and methodologies to improve Bayesian inference, bridging complex statistical theory with practical computational applications. He earned his PhD in Statistics at KAUST under the supervision of Professor Håvard Rue, as part of the Computational Bayesian Statistics research group. In recognition of his contributions to computational statistics, he received the prestigious 2023 Al-Kindi Research Award for Outstanding Research. 
+
+For more information, visit his [home page](https://sites.google.com/kaust.edu.sa/esmail-abdulfattah/home).
 
 :::
 ::: {.column width="20%"}

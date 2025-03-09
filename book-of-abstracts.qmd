@@ -1,0 +1,134 @@
+---
+title: "Book of abstracts"
+---
+
+Please [click here] to download a pdf version.
+
+<!-- ################################# -->
+<!-- DAY 1 -->
+<!-- ################################# -->
+::: {.callout-caution collapse="true" appearance="note" icon=false}
+# Day 1 (21/05/2025)
+
+::: {.callout-warning collapse="true" appearance="simple" icon=false}
+## Keynote talk 1: Finn Lindgren
+
+**Title**: Markovian potatoes - a collaborative effort
+
+**Summary**
+
+In 2004, Haavard asked me the key question that spawned the current methods for representing continuous Gaussian random fields with local basis function expansions and blending that with techniques for Markov random field computations: "Can you construct a stationary Markov random field on a sphere?". I will revisit some of the history pre- and post-dating that key moment, and how the research has evolved into present day. Also, there will be (numerical) potatoes.
+
+:::
+::: {.callout-tip collapse="true" appearance="simple" icon=false}
+## Invited talks: Lola Ugarte and Lisa B Gaedke-Merzhauser
+
+### Talk 1: Lola Ugarte
+**Title**: On spatial confounding in multivariate areal models
+
+**Summary**
+
+Spatial areal models encounter the well-known and challenging problem of spatial confounding. This issue makes it arduous to distinguish between the impacts of observed covariates and spatial random effects. Despite previous research and various proposed methods to tackle this problem, finding a definitive solution remains elusive. In this paper, we propose a simplified version of the spatial+ approach that eliminates the need to separately fit spatial models for the covariates. We apply this method to analyse two forms of crimes against women in Uttar Pradesh, India. To evaluate the performance of the new approach, we present a simulation study under different spatial confounding scenarios.
+
+### Talk 2: Lisa B Gaedke-Merzhauser
+**Title**: What R (and maybe you) don’t know about INLA
+
+**Summary**
+
+We dive under the surface of the R-INLA package and take a look at how your latent Gaussian model gets transformed into linear algebra. What does performing inference with INLA mean from an algorithmic perspective and how is this realized in the implementation? Where is the time spent when you fit your model? We explore how different inference tasks pose different computational challenges and meanwhile shed a (small) beam of light on the jungle of C-code that makes the R-INLA package. We expose some of the tricks, cheat codes and strikes of genius that are used behind the scenes to provide users with fast and accurate inference results. 
+
+:::
+::: {.callout-note collapse="true" appearance="simple" icon=false}
+## Contributed  talks
+
+:::
+
+::: {.callout-note collapse="true" appearance="simple" icon=false}
+## Flash poster presentations
+:::
+:::
+
+
+
+
+
+<!-- ################################# -->
+<!-- DAY 2 -->
+<!-- ################################# -->
+::: {.callout-caution collapse="true" appearance="note" icon=false}
+# Day 2 (22/05/2025)
+
+::: {.callout-warning collapse="true" appearance="simple" icon=false}
+## Keynote talk 2: Sara Martino
+
+**Title**: 
+
+**Summary**
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon=false}
+## Invited talks: Andrea Riebler and Esmail Abdul Fattah
+
+### Talk 1: Andrea Riebler
+**Title**: 
+
+**Summary**
+
+
+### Talk 2: Esmail Abdul Fattah
+**Title**: From Single-Core to Many-Core to GPUs
+
+**Summary**
+
+Computational efficiency has always been a key strength of INLA, but the computing landscape has evolved significantly. This talk explores the parallel strategies currently used in R-INLA and the need for a next-generation sparse matrix solver. sTiles, designed with modern HPC principles, enables INLA to scale beyond multi-core CPUs to many-core architectures, GPUs, and distributed-memory systems. I will discuss how sTiles unlocks new performance levels, making large-scale Bayesian inference feasible in next-generation computing environments.
+
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon=false}
+## Keynote talk 3: Elias Teixeira Krainski
+
+**Title**: graphpcor: Models for correlation matrices based on graphs
+
+**Summary**
+Correlation matrices are fundamental in multivariate statistical analysis, and their modeling to understand complex dependencies between random variables. As prior distributions, the Wishart for covariance and the LKJ for correlation matrices, have been widely used. In this work, we introduce two graph-based approaches for modeling correlation matrices. The graph structure is leveraged in understanding the relations between the variables. As prior distribution our proposal considers to penalize deviations from a base model ensuring robustness and interpretability. The proposed methods are illustrated with practical examples, demonstrating their flexibility and applicability to solve a variety of problems.
+
+Joint work with Anna Freni Sterrantino, Denis Rustand, Janet van Niekerk and Håvard Rue
+:::
+
+:::
+
+
+
+
+<!-- ################################# -->
+<!-- DAY 3 -->
+<!-- ################################# -->
+::: {.callout-caution collapse="true" appearance="note" icon=false}
+# Day 3 (23/05/2025)
+
+::: {.callout-warning collapse="true" appearance="simple" icon=false}
+## Keynote talk 4: Janet Van Niekerk
+
+**Title**: INLA 2.0
+
+**Summary**
+
+The INLA methodology has undergone some reformulations and new approaches. Most notably, the linear predictors have been removed from the latent field and the "N" part has essentially been replaced by a low-rank Variational Bayes procedure. This new approach, INLA 2.0, has been the default since late 2021 and has propelled many new applications that were infeasible before. I will give a conceptual overview of the changes, why these changes were explored and what lies ahead for INLA, in this direction.
+:::
+::: {.callout-note collapse="true" appearance="simple" icon=false}
+## Contributed  talks
+
+:::
+
+::: {.callout-tip collapse="true" appearance="simple" icon=false}
+## Invited talk: Dan Simpson
+**Title**: 
+
+**Summary**
+
+
+
+:::
+
+:::
+
