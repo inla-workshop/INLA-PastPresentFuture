@@ -23,7 +23,7 @@ With the exception of the poster session, all activities of the workshop will ta
 
 **M&S CM**: common room located on level 3 of The Mathematics & Statistics Building. 132 University Pl, G12 8QQ [(Google map)](https://www.google.com/maps/place/School+of+Mathematics+and+Statistics/@55.8726073,-4.2944843,511m/data=!3m2!1e3!4b1!4m6!3m5!1s0x488845cfd066d839:0xeab86bed8f92f0d0!8m2!3d55.8726073!4d-4.2944843!16s%2Fg%2F11ddzkn8v0?entry=ttu&g_ep=EgoyMDI1MDEyMC4wIKXMDSoASAFQAw%3D%3D)
 
-**Atrium** The atrium is located in the ground floor of the Wolfson Medical School Building. University Ave, Glasgow G12 8QQ [(Google map)](https://www.google.com/maps?client=firefox-b-d&sca_esv=fecf88b048ffc4bd&output=search&q=wolfson+medical+school&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpIgVFCTcbZI9VMGzNoV0iOZkckJJygdiLH6_g992ly-MejtXB7Ey3BdJG-rocg1ctTTT2Sbw250jS57H7KwALYd1nHaMretDrf2waNC9UTwjYTzOLpio9PbBPolGC3qxjmeHOEok_InAvzm4kZ2Jw6WOzUfTeEsuUM0OMJn_lHn5w47Ve92n0DqpX4dAFrRrWeCN7Og&entry=mc&ved=1t:200715&ictx=111)
+**Atrium**: The atrium is located in the ground floor of the Wolfson Medical School Building. University Ave, Glasgow G12 8QQ [(Google map)](https://www.google.com/maps?client=firefox-b-d&sca_esv=fecf88b048ffc4bd&output=search&q=wolfson+medical+school&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpIgVFCTcbZI9VMGzNoV0iOZkckJJygdiLH6_g992ly-MejtXB7Ey3BdJG-rocg1ctTTT2Sbw250jS57H7KwALYd1nHaMretDrf2waNC9UTwjYTzOLpio9PbBPolGC3qxjmeHOEok_InAvzm4kZ2Jw6WOzUfTeEsuUM0OMJn_lHn5w47Ve92n0DqpX4dAFrRrWeCN7Og&entry=mc&ved=1t:200715&ictx=111)
 
 <div style="text-align: center;">
   <iframe src="img/INLAworkshop2025_TentativeProgramme.pdf" width="900" height="600" style="border:none;"></iframe>
