@@ -8,7 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - registration.qmd
+      # - registration.qmd
       - href: programme.qmd
         text: Programme
       - keynotes.qmd
@@ -16,7 +16,7 @@ website:
       - href: panel.qmd
         text: Panel Discussion
       - tutorials.qmd
-      - abstract.qmd
+      # - abstract.qmd
       - awards.qmd
       # - book-of-abstracts.qmd
   page-footer:
