@@ -2,6 +2,92 @@
 title: "Programme & Book of abstracts"
 ---
 
+# Programme overview
+
+<div style="background-color: #e6f2ff; padding: 0.1em; border-radius: 4px;">
+  <h2> Day 1 (21/05/2025)</h2>
+</div>
+
+*Location: talks in room 222 BO,  poster session in M&S CM, coffee break in the Atrium*
+
+**8:00-8:20** Self-registration
+
+**8:20-8:30** Opening session
+
+**8:30-9:30** Keynote talk 1 by Finn Lindgren (University of Edinburgh): *Markovian potatoes - a collaborative effort*
+
+**9:30-10:30** Invited talks
+
+- **9:30-10:00** Lola Ugarte (Public University of Navarre): *On spatial confounding in multivariate areal models*
+- **10:00-10:30** Lisa B Gaedke-Merzhäuser (KAUST): *What R (and maybe you) don’t know about INLA*
+  
+**10:30-11:00** Coffee break
+
+**11:00-12:30** Contributed talks
+
+- **11:00-11:18** Stephen Jun Villejo (University of Glasgow): *Validating uncertainty propagation approaches for two-stage Bayesian spatial models using simulation-based calibration*
+- **11:18-11:36** Man Ho Suen (University of Edinburgh): *Cohering Disaggregation and Uncertainty Quantification for Spatially Misaligned Data*
+- **11:36-11:54** Ingelin Steinsland (NTNU): *INLA made Norwegian runoff maps better*
+- **11:54-12:12** Sigrunn Holbek Sørbye (UiT The Arctic University of Norway): *Identifying early warning signals in climatic time series*
+- **12:12-12:30** Jafet Belmont (University of Glasgow): *Combining Efforts: Integrating Citizen Science and Survey Data using inlabru*
+
+**12:30-14:00** Lunch time
+  
+  **14:00-16:00** Tutorial: inlabru
+  
+  **16:15- 18:00** Poster session, wine and cake
+
+
+<div style="background-color: #e6f2ff; padding: 0.1em; border-radius: 4px;">
+  <h2> Day 2 (22/05/2025)</h2>
+</div>
+
+*Location: talks in room 222 BO, coffee break in the Atrium*
+
+**8:30-9:30** Keynote talk 2 by Sara Martino (NTNU):
+
+**9:30-10:30** Panel discussion "Implementing INLA - Past, Present and Future" Chair: Lisa B Gaedke-Merzhäuser
+
+**10:30-11:00** Coffee break
+
+**11:00-12:00** Invited talks
+
+- **11:00-11:30** Andrea Riebler (NTNU): 
+- **11:30-12:00** Esmail Abdul Fattah (KAUST): *From Single-Core to Many-Core to GPUs*
+
+**12:00-13:30** Lunch time
+
+**13:30-15:30** Tutorial: MetricGraph
+  
+**15:30- 16:00** Coffee break & photo
+
+**16:00-17:00** Keynote talk 3 by Elias Teixeira Krainski (KAUST): *graphpcor: Models for correlation matrices based on graphs*
+
+
+
+<div style="background-color: #e6f2ff; padding: 0.1em; border-radius: 4px;">
+  <h2> Day 3 (23/05/2025)</h2>
+</div>
+
+*Location: talks in room 222 BO, coffee break in the Atrium*
+
+**8:30-9:30** Keynote talk 4 by Janet van Niekerk (KAUST): INLA 2.0
+
+**9:30-11:00** Contributed talks
+
+- **9:30-9:48** Lenin Rafael Riera Segura (KAUST): *A new class of non-stationary Gaussian fields with general smoothness on metric graphs*
+- **9:48-10:06** Virgilio Gómez-Rubio (Universidad de Castilla-La Mancha) *"INLA con cosas": embedding INLA to fit a larger class of models*
+- **10:06-10:24** Karina Lilleborge (NTNU) *Joint Modelling of Line and Point Data on Metric Graphs*
+- **10:24-10:42** Birgir Hrafnkelsson (University of Iceland) *Max-and-Smooth: A Two-Step Approach for Approximate Bayesian Inference in Latent Gaussian Models*
+- **10:42-11:00** Brynjólfur Gauti Guðrúnar Jónsson (University of Iceland) *Modeling spatial dependence through latent Gaussian models with spatial copulas*
+
+**11:00-11:30** Coffee break
+
+**11:30-12:00** Invited talk by Dan Simpson (.txt)
+
+**12:00-13:00** Håvard's speech, awards and closing
+
+
 # Programme at a glance
 
 <div style="text-align: center;">
@@ -16,7 +102,7 @@ Please [click here](https://www.dropbox.com/scl/fi/4xhmv1sjywv02j38yu3c3/book-of
 <!-- ################################# -->
 <!-- DAY 1 -->
 <!-- ################################# -->
-::: {.callout-caution collapse="true" appearance="note" icon=false}
+<!-- ::: {.callout-caution collapse="true" appearance="note" icon=false} -->
 # Day 1 (21/05/2025)
 
 ::: {.callout-warning collapse="true" appearance="simple" icon=false}
@@ -29,15 +115,15 @@ In 2004, Haavard asked me the key question that spawned the current methods for 
 
 :::
 ::: {.callout-tip collapse="true" appearance="simple" icon=false}
-## Invited talks: Lola Ugarte and Lisa B Gaedke-Merzhauser
+## Invited talks: Lola Ugarte and Lisa B Gaedke-Merzhäuser
 
-### Talk 1: Lola Ugarte
+### Lola Ugarte (Public University of Navarre, Spain)
 **Title**: On spatial confounding in multivariate areal models
 
 **Summary.**
 Spatial areal models encounter the well-known and challenging problem of spatial confounding. This issue makes it arduous to distinguish between the impacts of observed covariates and spatial random effects. Despite previous research and various proposed methods to tackle this problem, finding a definitive solution remains elusive. In this paper, we propose a simplified version of the spatial+ approach that eliminates the need to separately fit spatial models for the covariates. We apply this method to analyse two forms of crimes against women in Uttar Pradesh, India. To evaluate the performance of the new approach, we present a simulation study under different spatial confounding scenarios.
 
-### Talk 2: Lisa B Gaedke-Merzhauser
+### Lisa B Gaedke-Merzhauser
 **Title**: What R (and maybe you) don’t know about INLA
 
 **Summary.**
@@ -274,7 +360,7 @@ explicitly considering spatial correlation in at least one model, so more naive 
 Advancements in computational power and methodologies have enabled research on massive datasets. However, tools for analyzing data with directional or periodic characteristics, such as wind directions and customers’ arrival time in 24-hour clock, remain underdeveloped. While statisticians have proposed circular distributions for such analyses, significant challenges persist in constructing circular statistical models, particularly in the context of Bayesian methods. These challenges stem from limited theoretical development and a lack of historical studies on prior selection for circular distribution parameters. In this article, we propose a practical and systematic framework for selecting priors that effectively prevents overfitting in circular scenarios, especially when there is insufficient information to guide prior selection. We introduce well-examined Penalized Complexity (PC) priors for the most widely used circular distributions. Comprehensive comparisons with existing priors in the literature are conducted through simulation studies and a practical case study. Finally, we discuss the contributions and implications of our work, providing a foundation for further advancements in constructing Bayesian circular statistical models.
 :::
 :::
-:::
+<!-- ::: -->
 
 
 
@@ -283,7 +369,7 @@ Advancements in computational power and methodologies have enabled research on m
 <!-- ################################# -->
 <!-- DAY 2 -->
 <!-- ################################# -->
-::: {.callout-caution collapse="true" appearance="note" icon=false}
+<!-- ::: {.callout-caution collapse="true" appearance="note" icon=false} -->
 # Day 2 (22/05/2025)
 
 ::: {.callout-warning collapse="true" appearance="simple" icon=false}
@@ -297,13 +383,13 @@ Advancements in computational power and methodologies have enabled research on m
 ::: {.callout-tip collapse="true" appearance="simple" icon=false}
 ## Invited talks: Andrea Riebler and Esmail Abdul Fattah
 
-### Talk 1: Andrea Riebler
+### Andrea Riebler
 **Title**: 
 
 **Summary.**
 
 
-### Talk 2: Esmail Abdul Fattah
+### Esmail Abdul Fattah
 **Title**: From Single-Core to Many-Core to GPUs
 
 **Summary.**
@@ -311,7 +397,7 @@ Computational efficiency has always been a key strength of INLA, but the computi
 
 :::
 
-::: {.callout-tip collapse="true" appearance="simple" icon=false}
+::: {.callout-warning collapse="true" appearance="simple" icon=false}
 ## Keynote talk 3: Elias Teixeira Krainski
 
 **Title**: graphpcor: Models for correlation matrices based on graphs
@@ -322,7 +408,7 @@ Correlation matrices are fundamental in multivariate statistical analysis, and t
 Joint work with Anna Freni Sterrantino, Denis Rustand, Janet van Niekerk and Håvard Rue
 :::
 
-:::
+<!-- ::: -->
 
 
 
@@ -330,11 +416,11 @@ Joint work with Anna Freni Sterrantino, Denis Rustand, Janet van Niekerk and Hå
 <!-- ################################# -->
 <!-- DAY 3 -->
 <!-- ################################# -->
-::: {.callout-caution collapse="true" appearance="note" icon=false}
+<!-- ::: {.callout-caution collapse="true" appearance="note" icon=false} -->
 # Day 3 (23/05/2025)
 
 ::: {.callout-warning collapse="true" appearance="simple" icon=false}
-## Keynote talk 4: Janet Van Niekerk
+## Keynote talk 4: Janet van Niekerk
 
 **Title**: INLA 2.0
 
@@ -401,5 +487,5 @@ Initial applications to UKCP precipitation projections across the UK suggest thi
 
 :::
 
-:::
+<!-- ::: -->
 
