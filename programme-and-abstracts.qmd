@@ -44,9 +44,9 @@ title: "Programme & Book of abstracts"
 
 *Location: talks in room 222 BO, coffee break in the Atrium*
 
-**8:30-9:30** Keynote talk 2 by Sara Martino (NTNU):
+**8:30-9:30** Keynote talk 2 by Sara Martino (NTNU): 20 years of INLA
 
-**9:30-10:30** Panel discussion "Implementing INLA - Past, Present and Future" Chair: Lisa B Gaedke-Merzhäuser
+**9:30-10:30** Panel discussion: *Implementing INLA - Past, Present and Future*. Chair: Lisa B Gaedke-Merzhäuser
 
 **10:30-11:00** Coffee break
 
@@ -375,9 +375,10 @@ Advancements in computational power and methodologies have enabled research on m
 ::: {.callout-warning collapse="true" appearance="simple" icon=false}
 ## Keynote talk 2: Sara Martino
 
-**Title**: 
+**Title**: 20 years of INLA
 
-**Summary**
+**Summary.**
+This year marks not only Håvard's 60th birthday, but also the 20th anniversary of when Håvard and I began working on what would eventually become the INLA project. In this talk, I'll reflect on those early days—how we took the first steps into developing INLA, and how the R-INLA library has evolved from a small, specialized tool for fitting GLMs into the flexible and powerful resource it is today. 
 :::
 
 ::: {.callout-tip collapse="true" appearance="simple" icon=false}
