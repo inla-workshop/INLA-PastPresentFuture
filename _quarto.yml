@@ -9,7 +9,7 @@ website:
       - href: index.qmd
         text: Home
       # - registration.qmd
-      - book-of-abstracts.qmd
+      - programme-and-abstracts.qmd
       - href: venue.qmd
       - keynotes.qmd
       - invited.qmd
