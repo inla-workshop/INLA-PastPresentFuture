@@ -1,5 +1,5 @@
 ---
-title: "Programme at a glance"
+title: "Venue & information"
 ---
 
 ```{r setup, include=FALSE}
@@ -15,8 +15,8 @@ knitr::opts_chunk$set(
 
 ```
 
-*Note: This is a draft programme subject to modifications.*
 
+## Venue
 With the exception of the poster session, all activities of the workshop will take place in room 222 of the Boyd Orr Building. The poster session will be held in the Maths&Stats Building. Coffee breaks will be host in the Wolfson Medical School Building Atrium.
 
 **BO**: [room 222](https://www.gla.ac.uk/myglasgow/estates/timetabling/roomphotos/boydorr/#boydorrbuilding-room222(lt2)) Boyd Orr Building. University Avenue, Glasgow G12 8SP [(Google map)](https://www.google.com/maps?client=firefox-b-d&sca_esv=fecf88b048ffc4bd&output=search&q=boyd+orr+building+address&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpIgVFCTcbZI9VMGzNoV0iOZkckJJygdiLH6_g992ly-MejtXB7Ey3BdJG-rocg1ctTTT2Sbw250jS57H7KwALYd1nHaMretDrf2waNC9UTwjYTzOLpio9PbBPolGC3qxjmeHOEok_InAvzm4kZ2Jw6WOzUfTeEsuUM0OMJn_lHn5w47Ve92n0DqpX4dAFrRrWeCN7Og&entry=mc&ved=1t:200715&ictx=111)
@@ -25,21 +25,20 @@ With the exception of the poster session, all activities of the workshop will ta
 
 **Atrium**: The atrium is located in the ground floor of the Wolfson Medical School Building. University Ave, Glasgow G12 8QQ [(Google map)](https://www.google.com/maps?client=firefox-b-d&sca_esv=fecf88b048ffc4bd&output=search&q=wolfson+medical+school&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpIgVFCTcbZI9VMGzNoV0iOZkckJJygdiLH6_g992ly-MejtXB7Ey3BdJG-rocg1ctTTT2Sbw250jS57H7KwALYd1nHaMretDrf2waNC9UTwjYTzOLpio9PbBPolGC3qxjmeHOEok_InAvzm4kZ2Jw6WOzUfTeEsuUM0OMJn_lHn5w47Ve92n0DqpX4dAFrRrWeCN7Og&entry=mc&ved=1t:200715&ictx=111)
 
-<div style="text-align: center;">
-  <iframe src="img/INLAworkshop2025_TentativeProgramme.pdf" width="900" height="600" style="border:none;"></iframe>
-</div>
-
+:::{.text-center}
+![](img/map.png){width=90%}
+:::
 
 ## Lunch
 Kindly note that lunch is not provided, but a list with reccomendations for restaurants and delis close to our venue can be found below.
 
-Both the Adam Smith Building (ASB) and the School of Mathematics and Statistics are very close to Byres Road, a vibrant street with lots of restaurants, delis, shops, and tea/coffee shops. Here is a list with some recommendations, but feel free to walk along the street and see what is out there. They are all within walking distance from the workshop venue. Please consult the corresponding websites for menu details/dietary requirements.
+Both the Adam Smith Building (BO) and the School of Mathematics and Statistics are very close to Byres Road, a vibrant street with lots of restaurants, delis, shops, and tea/coffee shops. Here is a list with some recommendations, but feel free to walk along the street and see what is out there. They are all within walking distance from the workshop venue. Please consult the corresponding websites for menu details/dietary requirements.
 
 ::: {.callout-tip collapse="true" appearance="simple" icon=false}
-# Restaurants (sorted by walking distance to ASB)
+# Restaurants (sorted by walking distance to BO)
 
 
-| Name                  | Style              | Address                   | To ASB |
+| Name                  | Style              | Address                   | To BO |
 |-----------------------|--------------------|---------------------------|--------|
 | Eighty Eight          | Small plates       | 88 Dumbarton Rd, G11 6NX  | 3min   |
 | Number 16 Restaurant  | Modern European    | 16 Byres Rd, G11 5JY      | 3min   |
@@ -64,9 +63,9 @@ Both the Adam Smith Building (ASB) and the School of Mathematics and Statistics 
 :::
 
 ::: {.callout-tip collapse="true" appearance="simple" icon=false}
-# Sandwich/Bagel/Deli (sorted by walking distance to ASB)
+# Sandwich/Bagel/Deli (sorted by walking distance to BO)
 
-| Name                                | Style                  | Address                   | To ASB |
+| Name                                | Style                  | Address                   | To BO |
 |-------------------------------------|------------------------|---------------------------|--------|
 | St Lucia Deli                       | Italian  deli          | 181 Byres Rd, G12 8TS     | 6min   |
 | Bagel mania                         | Bagel shop             | 195 Byres Rd, G12 8TN     | 8min   |
@@ -83,9 +82,9 @@ Both the Adam Smith Building (ASB) and the School of Mathematics and Statistics 
 :::
 
 ::: {.callout-tip collapse="true" appearance="simple" icon=false}
-# Coffee and specialty tea (sorted by walking distance to ASB)
+# Coffee and specialty tea (sorted by walking distance to BO)
 
-| Name                     | Style                          | Address                       | To ASB |
+| Name                     | Style                          | Address                       | To BO |
 |--------------------------|--------------------------------|-------------------------------|--------|
 | The alchemist experiment | Coffee, chai and art gallery   | 157 Byres Rd, Glasgow G12 8TS | 5min   |
 | Birds & Blends           | Tea shop specialised in blends | 215 Byres Rd, Glasgow G12 8UD | 10min  |
@@ -114,7 +113,7 @@ time = c('<strong>Date</strong>', '<strong>Location</strong>',
 
 
 day1 = c('Wed 21st May', 
-         '<strong>ASB</strong> (except poster session)', 
+         '<strong>BO</strong> (except poster session)', 
          'Self-Registration', 
          'Opening Session', 
          'Keynote 1',
@@ -131,7 +130,7 @@ day1 = c('Wed 21st May',
 
 
 day2 = c('Thu 22nd May', 
-         '<strong>ASB</strong>', 
+         '<strong>BO</strong>', 
          '', 
          '', 
          'Keynote 2',
@@ -144,7 +143,7 @@ day2 = c('Thu 22nd May',
          'Keynote 3<br><strong>(16:00-16:55)</strong>')
 
 day3 = c('Fri 23rd May', 
-         '<strong>ASB</strong>', 
+         '<strong>BO</strong>', 
          '', 
          '', 
          'Keynote 4',
@@ -167,7 +166,7 @@ day3 = c('Fri 23rd May',
 #          '16:00- 18:00 ')
 # 
 # day1 = c('Wed 21st May', 
-#          '<strong>ASB</strong> (except poster session)', 
+#          '<strong>BO</strong> (except poster session)', 
 #          'Self-Registration', 
 #          'Opening Session', 
 #          'Keynote 1',
@@ -183,7 +182,7 @@ day3 = c('Fri 23rd May',
 # 
 # 
 # day2 = c('Thu 22nd May', 
-#          '<strong>ASB</strong>', 
+#          '<strong>BO</strong>', 
 #          '', 
 #          '', 
 #          'Keynote 2',
@@ -196,7 +195,7 @@ day3 = c('Fri 23rd May',
 #          'Keynote 3<br><strong>(16:00-16:55)</strong>')
 # 
 # day3 = c('Fri 23rd May', 
-#          '<strong>ASB</strong>', 
+#          '<strong>BO</strong>', 
 #          '', 
 #          '', 
 #          'Keynote 4',
