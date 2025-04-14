@@ -26,7 +26,7 @@ title: "Programme & Book of abstracts"
 **11:00-12:30** Contributed talks
 
 - **11:00-11:18** Stephen Jun Villejo (University of Glasgow): *Validating uncertainty propagation approaches for two-stage Bayesian spatial models using simulation-based calibration*
-- **11:18-11:36** Man Ho Suen (University of Edinburgh): *Cohering Disaggregation and Uncertainty Quantification for Spatially Misaligned Data*
+- **11:18-11:36** Man Ho Suen (University of Edinburgh): *Coherent Disaggregation and Uncertainty Quantification for Spatially Misaligned Data*
 - **11:36-11:54** Ingelin Steinsland (NTNU): *INLA made Norwegian runoff maps better*
 - **11:54-12:12** Sigrunn Holbek Sørbye (UiT The Arctic University of Norway): *Identifying early warning signals in climatic time series*
 - **12:12-12:30** Jafet Belmont (University of Glasgow): *Combining Efforts: Integrating Citizen Science and Survey Data using inlabru*
@@ -52,7 +52,7 @@ title: "Programme & Book of abstracts"
 
 **11:00-12:00** Invited talks
 
-- **11:00-11:30** Andrea Riebler (NTNU): 
+- **11:00-11:30** Andrea Riebler (NTNU): *INLA has made Bayesian inference more accessible to applied scientists*
 - **11:30-12:00** Esmail Abdul Fattah (KAUST): *From Single-Core to Many-Core to GPUs*
 
 **12:00-13:30** Lunch time
@@ -142,7 +142,7 @@ This work tackles the problem of uncertainty propagation in two-stage Bayesian m
 ---
 
 ### Man Ho Suen (University of Edinburgh)
-**Title**: Cohering Disaggregation and Uncertainty Quantification for Spatially Misaligned Data
+**Title**: Coherent Disaggregation and Uncertainty Quantification for Spatially Misaligned Data
 
 **Summary.**
 Spatial misalignments arise from data aggregation or attempts to align misaligned data, leading to information loss. We propose a disaggregation framework that combines the finite element method (FEM) with a first-order Taylor approximation via integrated nested Laplace approximation (INLA).
@@ -385,10 +385,10 @@ This year marks not only Håvard's 60th birthday, but also the 20th anniversary 
 ## Invited talks: Andrea Riebler and Esmail Abdul Fattah
 
 ### Andrea Riebler
-**Title**: 
+**Title**: INLA has made Bayesian inference more accessible to applied scientists
 
 **Summary.**
-
+The introduction of sampling-based inference in the early 1990 marked a major breakthrough in Bayesian inference. However, the impact of this Bayesian revolution was less visible for the applied users. That changed with the development of INLA and the release of its corresponding R package specifically designed for latent Gaussian models. Over the years, INLA has evolved into a versatile and efficient tool, enabling fast and reliable Bayesian inference. Several R packages have since been developed around or on top of INLA, tailoring its functionality to specific application areas and making it even more user-friendly for targeted audiences. In this talk, I will reflect on my experience with INLA since its early days and highlight its practical value in applied fields—particularly in Public Health and Epidemiology, where it is extremely useful today.
 
 ### Esmail Abdul Fattah
 **Title**: From Single-Core to Many-Core to GPUs
