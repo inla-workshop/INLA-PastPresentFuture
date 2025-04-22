@@ -61,7 +61,7 @@ title: "Programme & Book of abstracts"
   
 **15:30- 16:00** Coffee break & photo
 
-**16:00-17:00** Keynote talk 3 by Elias Teixeira Krainski (KAUST): *graphpcor: Models for correlation matrices based on graphs*
+**16:00-17:00** Keynote talk 3 by Janet van Niekerk (KAUST): *INLA 2.0*
 
 
 
@@ -71,7 +71,7 @@ title: "Programme & Book of abstracts"
 
 *Location: talks in room 222 BO, coffee break in the Atrium*
 
-**8:30-9:30** Keynote talk 4 by Janet van Niekerk (KAUST): INLA 2.0
+**8:30-9:30** Keynote talk 4 by Elias Teixeira Krainski (KAUST): *graphpcor: Models for correlation matrices based on graphs*
 
 **9:30-11:00** Contributed talks
 
@@ -378,7 +378,7 @@ Advancements in computational power and methodologies have enabled research on m
 **Title**: 20 years of INLA
 
 **Summary.**
-This year marks not only Håvard's 60th birthday, but also the 20th anniversary of when Håvard and I began working on what would eventually become the INLA project. In this talk, I'll reflect on those early days—how we took the first steps into developing INLA, and how the R-INLA library has evolved from a small, specialized tool for fitting GLMs into the flexible and powerful resource it is today. 
+This year marks not only Håvard’s 60th birthday, it is also the 20th anniversary of when Håvard (and I) began working on what would eventually become the INLA project. In this talk, I'll reflect on those early days—how we took the first steps into developing INLA, and how the R-INLA library has evolved from a small, specialized tool for fitting GLMs into the flexible and powerful resource it is today.
 :::
 
 ::: {.callout-tip collapse="true" appearance="simple" icon=false}
@@ -399,14 +399,12 @@ Computational efficiency has always been a key strength of INLA, but the computi
 :::
 
 ::: {.callout-warning collapse="true" appearance="simple" icon=false}
-## Keynote talk 3: Elias Teixeira Krainski
+## Keynote talk 3: Janet van Niekerk
 
-**Title**: graphpcor: Models for correlation matrices based on graphs
+**Title**: INLA 2.0
 
 **Summary.**
-Correlation matrices are fundamental in multivariate statistical analysis, and their modeling to understand complex dependencies between random variables. As prior distributions, the Wishart for covariance and the LKJ for correlation matrices, have been widely used. In this work, we introduce two graph-based approaches for modeling correlation matrices. The graph structure is leveraged in understanding the relations between the variables. As prior distribution our proposal considers to penalize deviations from a base model ensuring robustness and interpretability. The proposed methods are illustrated with practical examples, demonstrating their flexibility and applicability to solve a variety of problems.
-
-Joint work with Anna Freni Sterrantino, Denis Rustand, Janet van Niekerk and Håvard Rue
+The INLA methodology has undergone some reformulations and new approaches. Most notably, the linear predictors have been removed from the latent field and the "N" part has essentially been replaced by a low-rank Variational Bayes procedure. This new approach, INLA 2.0, has been the default since late 2021 and has propelled many new applications that were infeasible before. I will give a conceptual overview of the changes, why these changes were explored and what lies ahead for INLA, in this direction.
 :::
 
 <!-- ::: -->
@@ -421,12 +419,15 @@ Joint work with Anna Freni Sterrantino, Denis Rustand, Janet van Niekerk and Hå
 # Day 3 (23/05/2025)
 
 ::: {.callout-warning collapse="true" appearance="simple" icon=false}
-## Keynote talk 4: Janet van Niekerk
+## Keynote talk 4: Elias Teixeira Krainski
 
-**Title**: INLA 2.0
+**Title**: graphpcor: Models for correlation matrices based on graphs
 
 **Summary.**
-The INLA methodology has undergone some reformulations and new approaches. Most notably, the linear predictors have been removed from the latent field and the "N" part has essentially been replaced by a low-rank Variational Bayes procedure. This new approach, INLA 2.0, has been the default since late 2021 and has propelled many new applications that were infeasible before. I will give a conceptual overview of the changes, why these changes were explored and what lies ahead for INLA, in this direction.
+Correlation matrices are fundamental in multivariate statistical analysis, and their modeling to understand complex dependencies between random variables. As prior distributions, the Wishart for covariance and the LKJ for correlation matrices, have been widely used. In this work, we introduce two graph-based approaches for modeling correlation matrices. The graph structure is leveraged in understanding the relations between the variables. As prior distribution our proposal considers to penalize deviations from a base model ensuring robustness and interpretability. The proposed methods are illustrated with practical examples, demonstrating their flexibility and applicability to solve a variety of problems.
+
+Joint work with Anna Freni Sterrantino, Denis Rustand, Janet van Niekerk and Håvard Rue
+
 :::
 ::: {.callout-note collapse="true" appearance="simple" icon=false}
 ## Contributed  talks
