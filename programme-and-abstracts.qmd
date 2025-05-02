@@ -309,6 +309,12 @@ Net income is a key variable of labor surveys that commonly has high rates of mi
 :::
 
 ::: {.callout-note collapse="true" appearance="simple" icon=false}
+## Vincent	Maillou	(ETH Zurich): A Novel Framework to Perform Large Scale Bayesian Modeling
+Bayesian inference on large-scale spatio-temporal models is limited by its computational feasibility, a trend that is further exacerbated by the continuous increase in data availability and model refinements. To address this issue, we present a novel standalone Python implementation of the methodology of integrated nested Laplace approximations (INLA). Our framework aims at combining modern coding practices, code modularity and high-performance computing capabilities. It achieves unprecedented scalability through GPU-acceleration and a triple-layer, nested, distributed-memory parallelization strategy. We showcase the computational performance of our framework on up to 288 Hopper GPUs of the CSCS Alps supercomputer, scaling further a large spatio-temporal air temperature prediction model made of a spatial mesh composed of 4002 edges over the course of 250 days. Our broader goal being to extend the scope of our novel framework to support other large-scale models that exceed the computational limits of the R-INLA package.
+
+:::
+
+::: {.callout-note collapse="true" appearance="simple" icon=false}
 ## Francisco Palmí Perales (Universitat de València): SRP-ANOVA: a spatial multivariate approach to model suicide-related emergency calls.
 The multivariate analysis of different diseases in a spatial context remains a critical area of research. Different proposals have been made to handle several multivariate epidemiological scenarios (Botella-Rocamora et al., 2015; Palmí-Perales et al., 2023). However, these approaches are not really appropriate for comparing spatial risk patterns when different population subgroups are compared. 
 Here we present an approach able to identify differences in spatial risk patterns among diverse at-risk populations. Specifically, the population is stratified by two factors leading in four different population groups. Different modelling scenarios are adjusted, and the best one is chosen. The proposed methodology is applied to analyse suicide-related emergency call data in the Valencian Community, Spain. Given the computational complexity of the problem, Bayesian inference is performed using the Integrated Nested Laplace Approximation (INLA) method (Rue et al., 2009), yielding efficient and reliable results.
