@@ -10,7 +10,7 @@ title: "Programme & Book of abstracts"
 
 *Location: talks in room 222 BO,  poster session in M&S CM, coffee break in the Atrium*
 
-**8:00-8:20** Self-registration
+**8:00-8:20** Self-registration: pick up your name badge
 
 **8:20-8:30** Opening session
 
@@ -21,7 +21,7 @@ title: "Programme & Book of abstracts"
 - **9:30-10:00** Lola Ugarte (Public University of Navarre): *On spatial confounding in multivariate areal models*
 - **10:00-10:30** Lisa B Gaedke-Merzhäuser (KAUST): *What R (and maybe you) don’t know about INLA*
   
-**10:30-11:00** Coffee break
+**10:30-10:55** Coffee break
 
 **11:00-12:30** Contributed talks
 
@@ -31,7 +31,7 @@ title: "Programme & Book of abstracts"
 - **11:54-12:12** Sigrunn Holbek Sørbye (UiT The Arctic University of Norway): *Identifying early warning signals in climatic time series*
 - **12:12-12:30** Jafet Belmont (University of Glasgow): *Combining Efforts: Integrating Citizen Science and Survey Data using inlabru*
 
-**12:30-14:00** Lunch time
+**12:30-13:55** Lunch time
   
   **14:00-16:00** Tutorial: inlabru
   
@@ -48,7 +48,7 @@ title: "Programme & Book of abstracts"
 
 **9:30-10:30** Panel discussion: *Implementing INLA - Past, Present and Future*. Chair: Lisa B Gaedke-Merzhäuser
 
-**10:30-11:00** Coffee break
+**10:30-10:55** Coffee break
 
 **11:00-12:00** Invited talks
 
@@ -59,7 +59,7 @@ title: "Programme & Book of abstracts"
 
 **13:30-15:30** Tutorial: MetricGraph
   
-**15:30- 16:00** Coffee break & photo
+**15:30- 15:55** Coffee break & photo
 
 **16:00-17:00** Keynote talk 3 by Janet van Niekerk (KAUST): *INLA 2.0*
 
@@ -78,14 +78,15 @@ title: "Programme & Book of abstracts"
 - **9:30-9:48** Lenin Rafael Riera Segura (KAUST): *A new class of non-stationary Gaussian fields with general smoothness on metric graphs*
 - **9:48-10:06** Virgilio Gómez-Rubio (Universidad de Castilla-La Mancha) *"INLA con cosas": embedding INLA to fit a larger class of models*
 - **10:06-10:24** Karina Lilleborge (NTNU) *Joint Modelling of Line and Point Data on Metric Graphs*
-- **10:24-10:42** Birgir Hrafnkelsson (University of Iceland) *Max-and-Smooth: A Two-Step Approach for Approximate Bayesian Inference in Latent Gaussian Models*
-- **10:42-11:00** Brynjólfur Gauti Guðrúnar Jónsson (University of Iceland) *Modeling spatial dependence through latent Gaussian models with spatial copulas*
+- **10:24-10:42** Luisa	Ferrari	(University of Modena and Reggio Emilia) *A Standardization Procedure to Incorporate Variance Partitioning-Based Priors in Latent Gaussian Models*
+- **10:42-11:00** Birgir Hrafnkelsson (University of Iceland) *Max-and-Smooth: A Two-Step Approach for Approximate Bayesian Inference in Latent Gaussian Models*
+- **11:00-11:18** Brynjólfur Gauti Guðrúnar Jónsson (University of Iceland) *Modeling spatial dependence through latent Gaussian models with spatial copulas*
 
-**11:00-11:30** Coffee break
+**11:20-11:55** Coffee break
 
-**11:30-12:00** Invited talk by Dan Simpson (.txt)
+**12:00-12:30** Invited talk by Dan Simpson (.txt)
 
-**12:00-13:00** Håvard's speech, awards and closing
+**12:30-13:15** Håvard's speech, awards and closing
 
 
 # Programme at a glance
@@ -97,7 +98,7 @@ title: "Programme & Book of abstracts"
 
 # Book of abstracts
 
-Please [click here](https://www.dropbox.com/scl/fi/4xhmv1sjywv02j38yu3c3/book-of-abstracts-pdf.pdf?rlkey=kgs0jyqg4c72h46l6vxi6zc9q&dl=1) to download a pdf version.
+Please [click here](https://www.dropbox.com/scl/fi/1jmem17egthm6jpo35qpy/book-of-abstracts-pdf.pdf?rlkey=a6z4ebyksv6js5x8udpjainwa&dl=1) to download a pdf version.
 
 <!-- ################################# -->
 <!-- DAY 1 -->
@@ -123,7 +124,7 @@ In 2004, Haavard asked me the key question that spawned the current methods for 
 **Summary.**
 Spatial areal models encounter the well-known and challenging problem of spatial confounding. This issue makes it arduous to distinguish between the impacts of observed covariates and spatial random effects. Despite previous research and various proposed methods to tackle this problem, finding a definitive solution remains elusive. In this paper, we propose a simplified version of the spatial+ approach that eliminates the need to separately fit spatial models for the covariates. We apply this method to analyse two forms of crimes against women in Uttar Pradesh, India. To evaluate the performance of the new approach, we present a simulation study under different spatial confounding scenarios.
 
-### Lisa B Gaedke-Merzhauser
+### Lisa B Gaedke-Merzhäuser
 **Title**: What R (and maybe you) don’t know about INLA
 
 **Summary.**
@@ -232,11 +233,6 @@ During the COVID-19 pandemic, wastewater-based epidemiology (WBE) has emerged as
 :::
 
 ::: {.callout-note collapse="true" appearance="simple" icon=false}
-## Luisa	Ferrari	(University of Modena and Reggio Emilia): A Standardization Procedure to Incorporate Variance Partitioning-Based Priors in Latent Gaussian Models
-Latent Gaussian Models (LGMs) are a subset of Bayesian Hierarchical models popularly employed in many fields for their flexibility and computational efficiency. However, practitioners find prior elicitation on the variance parameters of LGMs challenging as they are not easily interpretable by users. Recently, several papers have tackled this issue by rethinking the model in terms of variance partitioning (VP) and assigning priors to parameters reflecting the relative contribution of each effect to the total variance. So far, the class of priors based on VP has been mainly deployed for random and fixed effects separately. This work presents a novel standardization procedure that expands the applicability of VP priors to a broader class of LGMs, including both fixed and random effects. The standardization procedure consists of a 0-mean constraint step, only required for fixed effects, and a scaling step to ensure homogeneity in the scales of the variance parameters. We describe the steps required for standardization through various examples, with a particular focus on the popular class of intrinsic Gaussian Markov random fields (IGMRFs). We also discuss the popular case of P-Splines, for which we propose an adjustment of the precision matrix for a neat separation between their linear and non-linear contributions. The practical advantages of standardization are demonstrated with simulated data and a real dataset on survival analysis. More details on this project can be found in the [preprint](arxiv.org/abs/2501.16057).
-:::
-
-::: {.callout-note collapse="true" appearance="simple" icon=false}
 ## Mario	Figueira (University of Valencia): Scalable Bayesian Inference: Recursive and Distributed Methods with INLA
 Recursive inference and distributed inference can be implemented to address various scenarios involving data acquisition, model complexity, or Big Data challenges. In particular, Bayesian inference naturally provides a framework for recursively updating information. However, in practice, recursive implementation of the inferential process is often avoided due to technical challenges. Recursive inference offers a mechanism to update the available information about the inferential model as new data becomes available. On the other hand, distributed inference is typically employed when working with large datasets or complex models, allowing data and computation to be partitioned across different servers or machines to distribute the computational load. Moreover, distributed inference can also be used when data must be analyzed separately without sharing it, as in data privacy issues. In such cases, distributed inference enables the analysis of a complex model by integrating information from model components without the need to explicitly share the protected data.
 
@@ -297,10 +293,10 @@ One of the most difficult issues that arise when doing Bayesian inference is mod
 The key of the RJMCMC algorithm is that on each step of the Markov Chain, a different model, with different number of covariates, with different dimension, etc can be selected for the next step of the chain. 
 
 In recent years, INLA (rue et al, 2009) has provide a much faster way to make approximations of the models than the traditional MCMC methods.
- Our approach is using Reversible Jump MCMC combined with INLA to try to select the “best” model of the proposed family. Instead of using a traditional MCMC method to approximate the different models, resulting in a higher computational cost and time, we approximate this model using INLA. On each step of the Markov Chain, the marginal likelihood is used as a jump criterion. When the MCMC is finished, we have models estimated with INLA but their posterior probabilities are estimated using the created samples by the Markov Chain.
+ Our approach is using Reversible Jump MCMC combined with INLA to try to select the "best" model of the proposed family. Instead of using a traditional MCMC method to approximate the different models, resulting in a higher computational cost and time, we approximate this model using INLA. On each step of the Markov Chain, the marginal likelihood is used as a jump criterion. When the MCMC is finished, we have models estimated with INLA but their posterior probabilities are estimated using the created samples by the Markov Chain.
 The application has been tested with different datasets of R, including the cement, airquality, Swiss and mtcars datasets.
 
-Joint work with: Virgilio Gómez Rubio and Gonzalo García Donato
+Joint work with: Virgilio Gómez-Rubio and Gonzalo García Donato
 :::
 
 ::: {.callout-note collapse="true" appearance="simple" icon=false}
@@ -358,11 +354,11 @@ Air pollution remains a critical environmental and public health challenge, dema
 Joint models for longitudinal and survival data have gained significant importance in clinical trials due to their predictive and inferential advantages in risk processes associated with biomarkers. Within the literature, few applications are designed for experiments involving a cure fraction, in which a portion of the individuals under observation will never experience the event of interest. The aim of this work is to present a joint model based on the framework of defective distributions, which offer a more integrated and parsimonious approach compared to modeling under the standard risk model. We formulate the joint model within a Bayesian framework, assuming the Gompertz model as the failure time specification. For parametric estimation, we used the efficient Integrated Nested Laplace Approximation (INLA) method. Under vague prior specifications, we conducted simulation studies to assess some frequentist properties under different censoring schemes. Finally, we applied the proposed methodology to an experiment involving three discrete biomarkers in the context of treatment failure among patients with a documented history of two or more clinically definite unprovoked epileptic seizures.
 :::
 
-::: {.callout-note collapse="true" appearance="simple" icon=false}
-## Gylfi Snær	Sigurðsson (University of Iceland): Predicting the likelihood of land around ditches being drained: an Icelandic case study
-Wetlands are globally significant ecosystems, providing critical ecological functions such as biodiversity support, water regulation, and climate mitigation. They serve as carbon sinks, storing a substantial portion of terrestrial soil organic carbon (SOC). A key factor in maintaining SOC levels is the anaerobic soil conditions sustained by high water tables. However, when wetlands are drained, these conditions are lost, leading to the gradual release of SOC into the atmosphere as carbon emissions. In Iceland, emissions from drained wetlands account for over one-third of the country's annual carbon output. Despite this, a comprehensive map distinguishing drained from undrained regions is currently unavailable.
-To address this gap, we developed a logistic regression model to predict the probability of land drainage using predominantly satellite-derived GIS data. The model is inferred through INLA. Initially, a spatial model was considered, but due to the country's size, the high variability between observational sites, and their limited number, the spatial component was not included. Some of the observational sites have multiple observations, each with different distances with respect to a draining ditch of interest. A mixed-effects INLA model, which takes into account the neighbor structure of the observational sites through a random walk component, was implemented. The final model adequately predicts the likelihood of land being drained, providing a valuable tool for environmental management and carbon accounting. However, further refinement and validation are needed to enhance its accuracy and applicability.
-:::
+<!-- ::: {.callout-note collapse="true" appearance="simple" icon=false} -->
+<!-- ## Gylfi Snær	Sigurðsson (University of Iceland): Predicting the likelihood of land around ditches being drained: an Icelandic case study -->
+<!-- Wetlands are globally significant ecosystems, providing critical ecological functions such as biodiversity support, water regulation, and climate mitigation. They serve as carbon sinks, storing a substantial portion of terrestrial soil organic carbon (SOC). A key factor in maintaining SOC levels is the anaerobic soil conditions sustained by high water tables. However, when wetlands are drained, these conditions are lost, leading to the gradual release of SOC into the atmosphere as carbon emissions. In Iceland, emissions from drained wetlands account for over one-third of the country's annual carbon output. Despite this, a comprehensive map distinguishing drained from undrained regions is currently unavailable. -->
+<!-- To address this gap, we developed a logistic regression model to predict the probability of land drainage using predominantly satellite-derived GIS data. The model is inferred through INLA. Initially, a spatial model was considered, but due to the country's size, the high variability between observational sites, and their limited number, the spatial component was not included. Some of the observational sites have multiple observations, each with different distances with respect to a draining ditch of interest. A mixed-effects INLA model, which takes into account the neighbor structure of the observational sites through a random walk component, was implemented. The final model adequately predicts the likelihood of land being drained, providing a valuable tool for environmental management and carbon accounting. However, further refinement and validation are needed to enhance its accuracy and applicability. -->
+<!-- ::: -->
 
 <!-- ::: {.callout-note collapse="true" appearance="simple" icon=false} -->
 <!-- ## Misha	Tseitlin (University of Oulu and University of St Andrews): Graze Anatomy: A Bayesian Spatiotemporal Analysis of Livestock Effects on Scottish Upland Vegetation -->
@@ -471,6 +467,15 @@ In my talk I will illustrate different strategies to embed INLA within other mod
 
 **Summary.**
 Metric graphs are a useful tool for describing spatial domains like road and river networks, where spatial dependence should act along the network. We take advantage of recent developments for such GRFs, and consider joint spatial modelling of observations with different spatial supports. Motivated by an application to traffic modelling in Trondheim, Norway, we consider line-referenced data, which can be described by an integral of the GRF along the metric graph, and point-referenced data. Through a simulation study inspired by the application, we investigate the number of replicates that are needed to estimate parameters and to predict unobserved locations. The former is assessed using bias and root mean square errors (RMSEs), and the latter is assessed through RMSE, continuous rank probability scores, and coverage. Joint modelling is contrasted with a simplified approach that treat line-referenced observations as point-referenced observations. The results suggest that joint modelling leads to strong improvements. The application to Trondheim, Norway, combines point-referenced speed camera data and line-referenced public transportation data. To ensure positive speeds, we use a non-linear link function, which requires integrals of non-linear combinations of the linear predictor. We fit the model to two data sets where we expect different spatial dependency and compare the results. This is made computationally feasible by a combination of the R packages inlabru and MetricGraph, and new code for processing geographical line data to work with existing graph representations and fmesher methods for dealing with line support on objects from MetricGraph.
+
+---
+
+### Luisa	Ferrari	(University of Modena and Reggio Emilia)
+**Title**: A Standardization Procedure to Incorporate Variance Partitioning-Based Priors in Latent Gaussian Models
+
+**Summary.**
+Latent Gaussian Models (LGMs) are a subset of Bayesian Hierarchical models popularly employed in many fields for their flexibility and computational efficiency. However, practitioners find prior elicitation on the variance parameters of LGMs challenging as they are not easily interpretable by users. Recently, several papers have tackled this issue by rethinking the model in terms of variance partitioning (VP) and assigning priors to parameters reflecting the relative contribution of each effect to the total variance. So far, the class of priors based on VP has been mainly deployed for random and fixed effects separately. This work presents a novel standardization procedure that expands the applicability of VP priors to a broader class of LGMs, including both fixed and random effects. The standardization procedure consists of a 0-mean constraint step, only required for fixed effects, and a scaling step to ensure homogeneity in the scales of the variance parameters. We describe the steps required for standardization through various examples, with a particular focus on the popular class of intrinsic Gaussian Markov random fields (IGMRFs). We also discuss the popular case of P-Splines, for which we propose an adjustment of the precision matrix for a neat separation between their linear and non-linear contributions. The practical advantages of standardization are demonstrated with simulated data and a real dataset on survival analysis. More details on this project can be found in the preprint [arxiv.org/abs/2501.16057](arxiv.org/abs/2501.16057).
+
 
 ---
 
