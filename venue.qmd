@@ -29,6 +29,40 @@ With the exception of the poster session, all activities of the workshop will ta
 ![](img/map.png){width=90%}
 :::
 
+<!-- ## Risk assessment -->
+
+### Boyd Orr Building &nbsp;*(main workshop venue)*  
+
+**Accessibility**  
+: A fully step-free entrance is available from Lilybank Gardens.
+
+**In case of emergency**
+
+- Proceed calmly to the assembly point at **the corner of University Avenue and Ashton Road**.  
+- An automated external defibrillator is mounted just outside the janitors’ office on the ground floor.  
+- University of Glasgow staff and students should open the **SafeZone** phone application to alert Security if assistance is required.
+
+---
+
+### Mathematics and Statistics Building &nbsp;*(poster session venue)*  
+
+**Accessibility**
+
+- A passenger lift serves every level.  
+- The main entrance has electric doors; they lock at 17:00, so please re-enter with a valid University ID card.
+
+**In case of emergency**
+
+- Each staircase has a refuge area at the top for anyone who needs to wait for assistance.  
+- The assembly point for this building is outside the **British Heart Foundation Building on University Place**.
+
+---
+
+### Atrium, Woolfson Building &nbsp;*(coffee-break area)*  
+
+- The Atrium is on the ground floor and is completely step-free.  
+- If the fire alarm sounds, leave by the nearest exit and gather at the **bench area directly outside the main entrance**.
+
 ## Lunch
 Kindly note that lunch is not provided, but a list with reccomendations for restaurants and delis close to our venue can be found below.
 
@@ -96,6 +130,8 @@ Both the Adam Smith Building (BO) and the School of Mathematics and Statistics a
 
 ## Dinner recommendations
 For drinks or dinner, you can explore the Byres Road area, take a short stroll to Finnieston, or hop on the subway to visit the city centre. With countless options to choose from, it’s impossible to list them all here. However, if you're looking for recommendations, Time Out has curated a great list of the [35 best restaurants in Glasgow](https://www.timeout.com/glasgow/restaurants/best-restaurants-in-glasgow).
+
+
 
 
 ```{r, echo = F, eval=F}
