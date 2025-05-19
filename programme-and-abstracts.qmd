@@ -502,10 +502,10 @@ Initial applications to UKCP precipitation projections across the UK suggest thi
 
 ::: {.callout-tip collapse="true" appearance="simple" icon=false}
 ## Invited talk: Dan Simpson
-**Title**: 
+**Title**: All Hail the Markov Property
 
 **Summary.**
-
+All Hail the Markov Property; or Heaping praise on a very dead Russian in aid of celebrating a very alive Norwegian for hopefully 30 mins because some of you have planes and trains to catch
 
 
 :::
