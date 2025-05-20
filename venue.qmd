@@ -25,11 +25,17 @@ With the exception of the poster session, all activities of the workshop will ta
 
 **Atrium**: The atrium is located in the ground floor of the Wolfson Medical School Building. University Ave, Glasgow G12 8QQ [(Google map)](https://www.google.com/maps?client=firefox-b-d&sca_esv=fecf88b048ffc4bd&output=search&q=wolfson+medical+school&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpIgVFCTcbZI9VMGzNoV0iOZkckJJygdiLH6_g992ly-MejtXB7Ey3BdJG-rocg1ctTTT2Sbw250jS57H7KwALYd1nHaMretDrf2waNC9UTwjYTzOLpio9PbBPolGC3qxjmeHOEok_InAvzm4kZ2Jw6WOzUfTeEsuUM0OMJn_lHn5w47Ve92n0DqpX4dAFrRrWeCN7Og&entry=mc&ved=1t:200715&ictx=111)
 
+
+<span style="color:red">**Need building details?**</span>
+ See [here](https://frontdoor.spa.gla.ac.uk/map/embedded.html#!/?to=295) for accessibility maps, toilets, cafés, etc.
+        
 :::{.text-center}
 ![](img/map.png){width=90%}
 :::
 
-<!-- ## Risk assessment -->
+
+
+## Risk assessment
 
 ### Boyd Orr Building &nbsp;*(main workshop venue)*  
 
@@ -67,6 +73,20 @@ With the exception of the poster session, all activities of the workshop will ta
 Kindly note that lunch is not provided, but a list with reccomendations for restaurants and delis close to our venue can be found below.
 
 Both the Adam Smith Building (BO) and the School of Mathematics and Statistics are very close to Byres Road, a vibrant street with lots of restaurants, delis, shops, and tea/coffee shops. Here is a list with some recommendations, but feel free to walk along the street and see what is out there. They are all within walking distance from the workshop venue. Please consult the corresponding websites for menu details/dietary requirements.
+
+::: {.callout-tip collapse="true" appearance="simple" icon=false}
+# Cafes and Restaurants on Campus
+
+There are a variety of dining options available across campus. To learn more about our on-campus outlets, please visit [this link](https://www.gla.ac.uk/myglasgow/cateringandevents/catering/eatingoncampus/).
+
+:::{.text-center}
+![](img/foodcampus.png){width=80%}
+:::
+
+
+
+:::
+
 
 ::: {.callout-tip collapse="true" appearance="simple" icon=false}
 # Restaurants (sorted by walking distance to BO)
