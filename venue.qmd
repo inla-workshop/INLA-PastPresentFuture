@@ -141,7 +141,8 @@ There are a variety of dining options available across campus. To learn more abo
 | Name                     | Style                          | Address                       | To BO |
 |--------------------------|--------------------------------|-------------------------------|--------|
 | The alchemist experiment | Coffee, chai and art gallery   | 157 Byres Rd, Glasgow G12 8TS | 5min   |
-| Birds & Blends           | Tea shop specialised in blends | 215 Byres Rd, Glasgow G12 8UD | 10min  |
+| Birds & Blends           | Tea shop specialised in blends | 215 Byres Rd, Glasgow G12 8UD | 7min  |
+| Blank Street           | matchas and lattes, specialty coffee classics, and fresh-baked pastries | 259 Byres Rd, Glasgow G12 8TL | 8min  |
 
 
 : {.striped .hover}
