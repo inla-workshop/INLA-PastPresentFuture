@@ -14,16 +14,16 @@ title: "Programme & Book of abstracts"
 
 **8:20-8:30** Opening session
 
-**8:30-9:30** Keynote talk 1 by Finn Lindgren (University of Edinburgh): *Markovian potatoes - a collaborative effort*
+**8:30-9:30** Keynote talk 1 by Finn Lindgren (University of Edinburgh): *Markovian potatoes - a collaborative effort*. <span style="color:grey">**Chair**: Sara Martino.</span>
 
-**9:30-10:30** Invited talks
+**9:30-10:30** Invited talks. <span style="color:grey">**Chair**: Virgilio Gómez-Rubio.</span>
 
 - **9:30-10:00** Lola Ugarte (Public University of Navarre): *On spatial confounding in multivariate areal models*
 - **10:00-10:30** Lisa B Gaedke-Merzhäuser (KAUST): *What R (and maybe you) don’t know about INLA*
   
 **10:30-10:55** Coffee break
 
-**11:00-12:30** Contributed talks
+**11:00-12:30** Contributed talks. <span style="color:grey">**Chair**: Amanda Lenzi.</span>
 
 - **11:00-11:18** Stephen Jun Villejo (University of Glasgow): *Validating uncertainty propagation approaches for two-stage Bayesian spatial models using simulation-based calibration*
 - **11:18-11:36** Man Ho Suen (University of Edinburgh): *Coherent Disaggregation and Uncertainty Quantification for Spatially Misaligned Data*
@@ -44,13 +44,13 @@ title: "Programme & Book of abstracts"
 
 *Location: talks in room 222 BO, coffee break in the Atrium*
 
-**8:30-9:30** Keynote talk 2 by Sara Martino (NTNU): 20 years of INLA
+**8:30-9:30** Keynote talk 2 by Sara Martino (NTNU): 20 years of INLA. <span style="color:grey">**Chair**: Andrea Riebler.</span>
 
-**9:30-10:30** Panel discussion: *Implementing INLA - Past, Present and Future*. Chair: Lisa B Gaedke-Merzhäuser
+**9:30-10:30** Panel discussion: *Implementing INLA - Past, Present and Future*. <span style="color:grey">**Chair**: Lisa B Gaedke-Merzhäuser.</span>
 
 **10:30-10:55** Coffee break
 
-**11:00-12:00** Invited talks
+**11:00-12:00** Invited talks. <span style="color:grey">**Chair**: Geir-Arne Fuglstad.</span>
 
 - **11:00-11:30** Andrea Riebler (NTNU): *INLA has made Bayesian inference more accessible to applied scientists*
 - **11:30-12:00** Esmail Abdul Fattah (KAUST): *From Single-Core to Many-Core to GPUs*
@@ -61,7 +61,7 @@ title: "Programme & Book of abstracts"
   
 **15:30- 15:55** Coffee break & photo
 
-**16:00-17:00** Keynote talk 3 by Janet van Niekerk (KAUST): *INLA 2.0*
+**16:00-17:00** Keynote talk 3 by Janet van Niekerk (KAUST): *INLA 2.0*. <span style="color:grey">**Chair**: David Bolin.</span>
 
 
 
@@ -71,9 +71,9 @@ title: "Programme & Book of abstracts"
 
 *Location: talks in room 222 BO, coffee break in the Atrium*
 
-**8:30-9:30** Keynote talk 4 by Elias Teixeira Krainski (KAUST): *graphpcor: Models for correlation matrices based on graphs*
+**8:30-9:30** Keynote talk 4 by Elias Teixeira Krainski (KAUST): *graphpcor: Models for correlation matrices based on graphs*. <span style="color:grey">**Chair**: Sigrunn Holbek	Sørbye.</span>
 
-**9:30-11:00** Contributed talks
+**9:30-11:00** Contributed talks. <span style="color:grey">**Chair**: Janet van Niekerk.</span>
 
 - **9:30-9:48** Lenin Rafael Riera Segura (KAUST): *A new class of non-stationary Gaussian fields with general smoothness on metric graphs*
 - **9:48-10:06** Virgilio Gómez-Rubio (Universidad de Castilla-La Mancha) *"INLA con cosas": embedding INLA to fit a larger class of models*
@@ -84,9 +84,9 @@ title: "Programme & Book of abstracts"
 
 **11:20-11:55** Coffee break
 
-**12:00-12:30** Invited talk by Dan Simpson (.txt)
+**12:00-12:30** Invited talk by Dan Simpson (.txt). <span style="color:grey">**Chair**: Sara Martino.</span>
 
-**12:30-13:15** Håvard's speech, awards and closing
+**12:30-13:15** Awards, Håvard's speech, and closing
 
 
 # Programme at a glance
