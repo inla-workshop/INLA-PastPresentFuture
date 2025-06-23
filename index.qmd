@@ -26,7 +26,7 @@ include_graphics('img/hr_pic.png')
 
 The second edition of the workshop *INLA: Past, Present, and Future*, held in honour of Håvard Rue's 60th birthday, will bring together experts, early career researchers, and students to deepen the understanding and application of the INLA methodology. The workshop will review the latest developments in INLA, explore its current challenges and future directions through case studies, and offer hands-on training with practical tutorials on related R software. 
 
-The event will take place from **21-23 May 2025** at the University of Glasgow, and is generously sponsored by the Glasgow Mathematical Journal Trust.
+The event will take place from **21-23 May 2025** at the University of Glasgow.
 
 This 2.5-day workshop is free of charge, but registration is required due to limited capacity. Students and early career researchers are especially encouraged to participate.
 
@@ -75,3 +75,11 @@ This 2.5-day workshop is free of charge, but registration is required due to lim
 # Contact
 
 For any inquiries, please contact [Daniela Castro-Camilo](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/danielacastrocamilo/) at daniela.castrocamilo@glasgow.ac.uk.
+
+
+# Funding
+We are grateful for the financial support from the Glasgow Mathematical Journal Learning and Research Support Fund
+```{r, echo=F}
+include_graphics('img/GMJT logo.jpg')
+```
+
